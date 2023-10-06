@@ -13,7 +13,7 @@ if [ -f "$filename" ]; then
 
     # After running the script, commit and push changes
     git add .
-    git commit -m 'new bash command'
+    git commit -m 'C program commit'
     git push
 else
     echo "File '$filename' does not exist."
