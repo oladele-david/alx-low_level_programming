@@ -1,9 +1,11 @@
 #include "main.h"
 
 /**
- * main - check the code for Holberton School students.
+ * print_alphabet - Prints the English alphabet in lowercase.
  *
- * Return: Always 0.
+ * This function prints the English alphabet from 'a' to 'z' to the standard output.
+ *
+ * Return: None.
  */
 
 void print_alphabet(void)
