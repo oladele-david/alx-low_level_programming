@@ -1,4 +1,5 @@
 #include "main.h"
+
 /**
  *print_chessboard - prints the chessboard
  *@a:array input
@@ -6,6 +7,7 @@
  *Return:void
  *
  */
+
 void print_chessboard(char (*a)[8])
 {
 int i, j;
@@ -18,4 +20,4 @@ _putchar(*(*(i + a) + j));
 }
 _putchar('\n');
 }
-}                                           
+}
