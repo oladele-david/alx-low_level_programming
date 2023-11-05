@@ -48,7 +48,7 @@ exit(98);
 
 num1 = atoi(argv[1]);
 num2 = atoi(argv[2]);
-res = num1 * num2;
+res = num1 *num2;
 printf("%d\n", res);
 return (0);
 }
