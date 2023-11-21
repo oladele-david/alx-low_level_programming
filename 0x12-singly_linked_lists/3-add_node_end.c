@@ -7,7 +7,7 @@
  *Return: Address of the new node.
  **/
 
-list_t* add_node_end(list_t **head, const char *str)
+list_t *add_node_end(list_t **head, const char *str)
 {
 	list_t *temp, *temp2;
 	unsigned int length = 0;
