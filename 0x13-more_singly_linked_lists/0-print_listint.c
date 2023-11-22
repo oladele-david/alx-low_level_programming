@@ -8,7 +8,7 @@
  *
  *Return: the number of nodes
  */
- 
+
 size_t print_listint(const listint_t *h)
 {
 	size_t node_count = 0;
@@ -20,5 +20,5 @@ size_t print_listint(const listint_t *h)
 		node_count++;
 	}
 
-	return node_count;
+	return (node_count);
 }
