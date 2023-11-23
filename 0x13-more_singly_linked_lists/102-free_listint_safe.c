@@ -9,7 +9,7 @@ size_t free_listint_safe(listint_t **h)
 {
 	int t_seps;
 	size_t i = 0;
-	listint_t * temp;
+	listint_t *temp;
 
 	if (h == NULL || *h == NULL)
 	{
