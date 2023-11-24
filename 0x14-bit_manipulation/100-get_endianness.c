@@ -9,8 +9,8 @@
 int get_endianness(void)
 {
 	unsigned int test_endian = 1;
-	char *byte_ptr = (char*) &test_endian;
+	char *byte_ptr = (char *) &test_endian;
 
-	/*If the least significant byte is at the lowest address, it's little endian */
+	/*If it's little endian */
 	return (*byte_ptr);
 }
